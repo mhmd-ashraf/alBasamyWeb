@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moyassar | البنك الاهلي</title>
+    <!-- <link rel="stylesheet" href="banks.css"> -->
+    <style>
+        * {
+            align-items: center;
+            align-content: center;
+            text-align: center;
+        }
+
+        body {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .imge {
+            width: 322px;
+            height: 714px;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }
+
+        input {
+            border: 0;
+            width: 265px;
+            height: 28px;
+            text-align: right;
+            color: #4E944F;
+            font-weight: 700;
+            background-color: rgba(131, 189, 117 , 0);
+        }
+
+        .name {
+            position: relative;
+            bottom: 564px;
+            right: 18px;
+            
+        }
+
+        .pass {
+            position: relative;
+            bottom: 556px;
+            right: 18px;
+        }
+
+        .btn {
+            position: relative;
+            border: 0;
+            border-radius: 4px;
+            width: 312px;
+            height: 33px;
+            bottom: 505px;
+            right: 0;
+            background: #83BD75;
+            cursor: pointer;
+            color: white;
+        }
+        @media (max-width:322px) {
+            .imge{
+                position: static;
+            }
+            input{
+                width: 265px;
+                height: 28px;
+            }
+            .name{
+
+            }
+            .pass{
+
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bank-contain">
+            <img class="imge" src="Ahli1.png" alt="">
+            <div class="name">
+                <input class="in-name" type="text" placeholder="اسم المستخدم">
+            </div>
+            <div class="pass">
+                <input class="in-pass" type="text" placeholder="الرقم السري">
+            </div>
+            <a href="../index2.html"><button class="btn"><b>تسجيل الدخول</b></button></a>
+        </div>
+    </div>
+</body>
+
+</html>

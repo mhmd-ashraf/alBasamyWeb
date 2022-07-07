@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+html {
+    background: #D4D4D4;
+    background: -webkit-radial-gradient(#F0F0F0, #D4D4D4);
+    background: -o-radial-gradient(#F0F0F0, #D4D4D4);
+    background: -moz-radial-gradient(#F0F0F0, #D4D4D4);
+    background: radial-gradient(#F0F0F0, #D4D4D4);
+    min-height: 100%;
+    font-weight: bold;
+}
+body {
+    margin: 8px;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+/* .containerr{
+    margin: 0;
+    padding: 0;
+    display: block;
+        margin: 8px;
+} */
+
+.logo-basheer {
+    text-align: right;
+    margin: 20px;
+    background: rgb(249 249 249 / 91%);
+}
+.logo-basheer img {
+    max-width: 400px;
+    height: auto;
+}
+
+.marque {
+    padding: 8px;
+    color: #009cd5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.22);
+    background: rgba(255, 255, 255, 0.44);
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 22%);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0 5px rgb(0 0 0 / 22%);
+    font-size: 16px;
+    width: 100%;
+    overflow: hidden;
+}
+.marque marquee {
+    vertical-align: middle;
+}
+
+.form {
+    width: 350px;
+    background: #DEDEDE;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 44%), -1px -1px 1px rgb(0 0 0 / 44%), 10px 10px 10px rgb(0 0 0 / 22%);
+    -webkit-box-shadow: 1px 1px 1px rgb(0 0 0 / 44%), -1px -1px 1px rgb(0 0 0 / 44%), 10px 10px 10px rgb(0 0 0 / 22%);
+    -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.44), -1px -1px 1px rgba(0, 0, 0, 0.44), 10px 10px 10px rgba(0, 0, 0, 0.22);
+    margin: 10px auto 20px auto;
+    text-align: center;
+    border: 1px solid white;
+    padding-top: 10px;
+    position: relative;
+}
+
+.input-field {
+    margin: 10px 0;
+    position: relative;
+}
+
+.input-field input {
+    width: 60%;
+    border: none;
+    outline: none;
+    background: #F7F7F7;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    padding: 6px 6px 6px 13%;
+    border-radius: 3px;
+    border: 1px solid #f5821f;
+    box-shadow: 0 2px 0 #ededed, inset 0 0 5px rgb(0 0 0 / 11%);
+    -webkit-box-shadow: 0 2px 0 #ededed, inset 0 0 5px rgb(0 0 0 / 11%);
+    -moz-box-shadow: 0 2px 0 #EDEDED, inset 0 0 5px rgba(0, 0, 0, 0.11);
+}
+
+.icon {
+    width: 13%;
+    text-align: center;
+    background: #f5821f;
+    height: 98%;
+    position: absolute;
+    font-size: 1.3em;
+    line-height: 42px;
+    border-radius: 3px;
+    left: 20%;
+    top: 1%;
+    border: 1px solid #E84702;
+    box-shadow: 0 2px 0 #ededed, inset 0 1px 0 #ff8b59;
+    -webkit-box-shadow: 0 2px 0 #ededed, inset 0 1px 0 #ff8b59;
+    -moz-box-shadow: 0 2px 0 #EDEDED, inset 0 1px 0 #FF8B59;
+    color: white;
+    text-shadow: 0px 1px 1px rgb(0 0 0 / 50%);
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px;
+    border-top: 1px solid rgba(0, 0, 0, 0.22);
+    background: rgba(255, 255, 255, 0.33);
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 22%);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 0 5px rgb(0 0 0 / 22%);
+    direction: rtl;
+}
+
+.submit {
+    margin: 15px 0;
+}
+.submit button {
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 6px;
+    background: #f5821f;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #D64000;
+    box-shadow: 0 2px 0 #ededed, inset 0 1px 0 #ff8d5c;
+    -webkit-box-shadow: 0 2px 0 #ededed, inset 0 1px 0 #ff8d5c;
+    -moz-box-shadow: 0 2px 0 #EDEDED, inset 0 1px 0 #FF8D5C;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.submit button:hover {
+    transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+}
+
+@media screen and (max-width: 450px){
+    .logo-basheer img {
+        width: 100%;
+    }
+
+    .logo-basheer img {
+        max-width: 400px;
+        height: auto;
+    }
+
+}
+@media screen and (max-width: 500px) {
+
+    .submit button {
+        width: 80%;
+    }
+
+}
